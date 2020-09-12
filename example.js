@@ -42,7 +42,7 @@ const train = (iterations=1) => {
    }
 };
 
-train(10);
+train(2000);
 
 // Test Network
 console.log(activate([0,0])); // ~0 (0.01214291222508886)

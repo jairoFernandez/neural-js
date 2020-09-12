@@ -61,7 +61,7 @@ function Neuron(bias) {
       }, 0) : this.output - target;
 
     // 𝛿squash/𝛿sum
-    this.error = sum * this._output
+    this.error = sum * this._output;
 
     // Δbias
     this.bias -= rate * this.error;
